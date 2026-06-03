@@ -28,33 +28,13 @@ sudo systemctl enable --now docker
 笔者测试环境：
 
 ```text
-                   -`
-                  .o+`
-                 `ooo/
-                `+oooo:
-               `+oooooo:
-               -+oooooo+:
-             `/:-:++oooo+:
-            `/++++/+++++++:
-           `/++++++++++++++:
-          `/+++ooooooooooooo/`
-         ./ooosssso++osssssso+`
-        .oossssso-````/ossssss+`
-       -osssssso.      :ssssssso.
-      :osssssss/        osssso+++.
-     /ossssssss/        +ssssooo/-
-   `/ossssso+/:-        -:/+osssso+-
-  `+sso+:-`                 `.-/+oso:
- `++:.                           `-/+/
- .`                                 `/
-
 OS: Arch Linux x86_64
 Host: Dell G15 5520
 Kernel: 6.15.2-arch1-1
 CPU: Intel i7-12700H
 GPU: Intel Iris Xe Graphics
 GPU: NVIDIA GeForce RTX 3060 Mobile
-Memory: 15 GiB
+Memory: 16 GB
 ```
 
 ## 使用的文件
