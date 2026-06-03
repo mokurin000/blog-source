@@ -1,14 +1,14 @@
-base_url = "https://YOUR_URL.TLD"
-title = "site title"
-description = "YOUR_SITE_DESCRIPTION"
-author = "YOUR_NAME"
+base_url = "https://mokurin000.github.io"
+title = "mokurin000's blog"
+description = "geek blog"
+author = "mokurin000"
 theme = "tabi"
 generate_feeds = true
 compile_sass = true
 minify_html = true
 build_search_index = true
 default_language = "en"
-taxonomies = [{name = "tags", feed = true}]
+taxonomies = [{ name = "tags", feed = true }]
 
 
 [search]
@@ -92,14 +92,14 @@ stylesheets = []
 # remote_repository_url = "https://github.com/welpo/tabi"
 # Set this to "auto" to try and auto-detect the platform based on the repository URL.
 # Accepted values are "github", "gitlab", "gitea", and "codeberg".
-remote_repository_git_platform = "auto"  # Defaults to "auto".
+remote_repository_git_platform = "auto" # Defaults to "auto".
 # Branch in the repo hosting the Zola site.
-remote_repository_branch = "main"  # Defaults to "main".
+remote_repository_branch = "main" # Defaults to "main".
 # Show a link to the commit history of updated posts, right next to the last updated date.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-show_remote_changes = true  # Defaults to true.
+show_remote_changes = true # Defaults to true.
 # Show a link to the repository of the site, right next to the "Powered by Zola & tabi" text.
-show_remote_source = true  # Defaults to true.
+show_remote_source = true # Defaults to true.
 
 # Add a "copy" button to codeblocks (loads ~700 bytes of JavaScript).
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -135,7 +135,7 @@ post_listing_date = "date"
 # Enable iine like buttons on all posts: https://iine.to/
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 iine = false
-iine_icon = "heart"  # See https://iine.to/#customise
+iine_icon = "heart" # See https://iine.to/#customise
 # Unify like counts across all language versions of the same page.
 # When enabled, likes on /es/blog/hello/ will count towards /blog/hello/ (default language).
 iine_unified_languages = true
@@ -148,7 +148,7 @@ iine_unified_languages = true
 # Determines if indexes should be increasing (false) or decreasing (true) in series' posts list.
 # It has only effect if the section uses indexes metadata (which is only the case for series as of now).
 # Can be set at section levels, following the hierarchy: section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-post_listing_index_reversed = false  # Defaults to false.
+post_listing_index_reversed = false # Defaults to false.
 
 # DEPRECATED!
 # Use Zola's built-in `bottom_footnotes = true` in the [markdown] section instead. (Available since v0.19.0)
@@ -271,7 +271,7 @@ full_content_in_feed = true
 # 2. Or, set 'encode_plaintext_email' to true for auto-encoding (only protects on site, not in public repos).
 # email = "bWFpbEBleGFtcGxlLmNvbQ=="  # base64 encoded version of "mail@example.com"
 # Decoding requires ~400 bytes of JavaScript. If JS is disabled, the email won't be displayed.
-encode_plaintext_email = true  # Setting is ignored if email is already encoded.
+encode_plaintext_email = true # Setting is ignored if email is already encoded.
 
 # Social media links for the footer.
 # Built-in icons: https://github.com/welpo/tabi/tree/main/static/social_icons
@@ -303,7 +303,7 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 # $AUTHOR will be replaced by the `author` variable.
 # $SEPARATOR will be replaced by the `separator` variable.
 # Markdown is supported (links, emphasis, etc).
-# copyright = "$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
+copyright = '© $CURRENT_YEAR $AUTHOR $SEPARATOR 若无另加说明，站内原创内容均以 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 协议发布。<br><a href="https://icp.gov.moe/?keyword=20262114" target="_blank">萌ICP备20262114号</a>'
 
 # For multi-language sites, you can set a different copyright for each language.
 # The old way of setting `translated_copyright = true` and using i18n files is deprecated.
@@ -318,12 +318,28 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 # This configuration (along with the right webserver settings) gets an A+ in Mozilla's Observatory: https://observatory.mozilla.org
 # Note: to use a Zola built-in syntax highlighting theme, allow unsafe-inline for style-src.
 allowed_domains = [
-    { directive = "font-src", domains = ["'self'", "data:"] },
-    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
-    { directive = "media-src", domains = ["'self'"] },
-    { directive = "script-src", domains = ["'self'"] },
-    { directive = "style-src", domains = ["'self'"] },
-    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
+    { directive = "font-src", domains = [
+        "'self'",
+        "data:",
+    ] },
+    { directive = "img-src", domains = [
+        "'self'",
+        "https://*",
+        "data:",
+    ] },
+    { directive = "media-src", domains = [
+        "'self'",
+    ] },
+    { directive = "script-src", domains = [
+        "'self'",
+    ] },
+    { directive = "style-src", domains = [
+        "'self'",
+    ] },
+    { directive = "frame-src", domains = [
+        "player.vimeo.com",
+        "https://www.youtube-nocookie.com",
+    ] },
 ]
 
 # Enable the CSP directives configured (or default).
@@ -379,14 +395,14 @@ do_not_track = true
 # utterances support for comments. https://utteranc.es
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
 [extra.utterances]
-# enabled_for_all_posts = false  # Enables utterances on all posts. It can be enabled on individual posts by setting `utterances = true` in the [extra] section of a post's front matter.
-# automatic_loading = true  # If set to false, a "Load comments" button will be shown.
-# repo = "yourGithubUsername/yourRepo"  # https://utteranc.es/#heading-repository
-# issue_term = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages. https://utteranc.es/#heading-mapping
-# label = "💬"  # https://utteranc.es/#heading-issue-label
-# light_theme = "github-light"  # https://utteranc.es/#heading-theme
-# dark_theme = "photon-dark"  # https://utteranc.es/#heading-theme
-# lazy_loading = true
+enabled_for_all_posts = true  # Enables utterances on all posts. It can be enabled on individual posts by setting `utterances = true` in the [extra] section of a post's front matter.
+automatic_loading = true  # If set to false, a "Load comments" button will be shown.
+repo = "mokurin000/blog-source"  # https://utteranc.es/#heading-repository
+issue_term = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages. https://utteranc.es/#heading-mapping
+label = "💬"  # https://utteranc.es/#heading-issue-label
+light_theme = "github-light"  # https://utteranc.es/#heading-theme
+dark_theme = "photon-dark"  # https://utteranc.es/#heading-theme
+lazy_loading = true
 
 # Hyvor Talk support for comments. https://talk.hyvor.com
 [extra.hyvortalk]
