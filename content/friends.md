@@ -32,8 +32,13 @@ description = "朋友们的博客"
 </p>
 
 <p>
-    <a href="https://gh.sbchild.top/">色妹妹</a><br>
-    底裤被掀了，现在只剩一条随风飘荡的长裙。
+    <a href="https://shadowrz.github.io/">ShadowRZ</a><br>
+    幻影双叶酱
+</p>
+
+<p>
+    <a href="https://blog.yoitsu.moe/">ホロ</a><br>
+    「虽然咱长久以来被尊为神，且被束缚在这块土地上，但咱根本不是什么伟大的神。咱就是咱。咱是赫萝。」    
 </p>
 
 <p>
@@ -42,6 +47,26 @@ description = "朋友们的博客"
 </p>
 
 <p>
+    <a href="https://gh.sbchild.top/">色妹妹</a><br>
+    底裤被掀了，现在只剩一条随风飘荡的长裙。
+</p>
+
+<p>
+    <a href="https://sinofine.me/">Sinofine</a><br>
+    你好，我是小猫！
+</p>
+
+<p>
+    <a href="https://blog.taoky.moe/">taoky</a><br>
+    Waylyrics 的另一位主要维护者
+</p>
+
+<p>
     <a href="https://blog.bluempty.com/">HypengW</a><br>
-    名声赫赫的 Qcm 作者
+    名声赫赫的 <a href="https://github.com/hypengw/Qcm">Qcm</a> 作者
+</p>
+
+<p>
+    <a href="https://blog.yurzi.net/">Yurzi</a><br>
+    玖只的尾巴
 </p>
