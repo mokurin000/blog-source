@@ -8,3 +8,5 @@ max_posts = 5
 +++
 
 Welcome to my personal site!
+
+- [友链](/friends)

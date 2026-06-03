@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-bash _build.sh
+bash _build.sh || exit 1
 
 cd mokurin000.github.io
 
