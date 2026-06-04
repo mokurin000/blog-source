@@ -4,7 +4,7 @@ date = 2021-07-28T15:04:00
 slug = "awesome-unstable-rust-features"
 
 [taxonomies]
-tags = ["Rust"]
+tags = ["rust"]
 +++
 
 ## 注意
