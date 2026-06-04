@@ -813,6 +813,7 @@ fn a() {
 > 已经在 Stable Rust 部分实现。 [^2]
 
 [^2]: https://github.com/rust-lang/rust/issues/44580#issuecomment-1074040208
+
 [rust dublin talk]: https://lazy.codes/posts/intro-to-const-generics/
 
 在都柏林 Rust 集会中，关于 `const_generics` ，我做过一场[演讲][rust dublin talk]。
