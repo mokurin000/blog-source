@@ -1,6 +1,7 @@
 +++
 title = "Win32 Volume、分区号与硬盘型号"
 date = 2026-06-04T11:30:00+08:00
+description = "Windows 硬盘操作，不用 WMI 可以多麻烦。"
 
 [taxonomies]
 tags = ["windows", "python"]

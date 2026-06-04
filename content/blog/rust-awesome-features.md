@@ -2,6 +2,7 @@
 title = "一些不错的 Rust Unstable 特性"
 date = 2021-07-28T15:04:00
 slug = "awesome-unstable-rust-features"
+description = "旧的 Rust 特性译文，其中部分已经 Stablized ，部分成为废案。"
 
 [taxonomies]
 tags = ["rust"]

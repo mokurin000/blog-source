@@ -1,6 +1,6 @@
 +++
 title = "Projects"
-sort_by = "weight"
+sort_by = "date"
 template = "cards.html"
 insert_anchor_links = "left"
 

@@ -2,6 +2,7 @@
 title = "C23特性简介"
 slug = "c23-quickview"
 date = "2026-06-04"
+description = "简短介绍 C23 的语法变化。"
 
 [taxonomies]
 tags = ["C"]

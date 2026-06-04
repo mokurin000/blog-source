@@ -2,6 +2,7 @@
 title = "用 Tauri 注入 UserScript"
 date = 2026-06-04T17:30+08:00
 slug = "tauri-userscript-injection"
+description = "一篇由付费游戏价格计算器引发的思考"
 
 [taxonomies]
 tags = ["tauri", "rust", "userscript"]

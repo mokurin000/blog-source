@@ -3,7 +3,6 @@ title = "Frigate + NVIDIA 显卡笔记本的部署"
 description = "在 Arch Linux NVIDIA 笔记本上部署 Frigate、RTSP 摄像头与 ONNX 检测模型的记录。"
 date = 2025-08-18
 template = "page.html"
-weight = 1
 
 [taxonomies]
 tags = ["webcam", "frigate"]

@@ -3,7 +3,6 @@ title = "HN8145XR 光猫折腾记录"
 description = "河南移动 HN8145XR 光猫 Telnet、超管密码获取、公版界面恢复等资料整理"
 slug = "hn8145xr-henan-mobile-notes"
 date = 2025-02-26
-weight = 1
 template = "page.html"
 
 [taxonomies]
