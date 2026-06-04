@@ -70,3 +70,8 @@ description = "朋友们的博客"
     <a href="https://blog.yurzi.net/">Yurzi</a><br>
     玖只的尾巴
 </p>
+
+<p>
+    <a href="https://shiina.xyz/">椎名 朔</a><br>
+    设计并交付可在高压力环境保持快速运行的生产级别 Web 体验。
+</p>
