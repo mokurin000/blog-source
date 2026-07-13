@@ -75,3 +75,8 @@ description = "朋友们的博客"
     <a href="https://shiina.xyz/">椎名 朔</a><br>
     设计并交付可在高压力环境保持快速运行的生产级别 Web 体验。
 </p>
+
+<p>
+    <a href="https://xhdndmm.net/">喜欢电脑的猫咪</a><br>
+    无口系猫娘，123pan的主要开发者
+</p>
