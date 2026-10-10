@@ -3,14 +3,6 @@ title = "友链"
 description = "朋友们的博客"
 +++
 
-<!--
-<p>
-    ❤ <a href="https://github.com/Meowkatee">Meowkatee</a><br>
-    我老婆，CPTSD 患者，不定期榨干我的剩余情绪价值
-</p>
-
--->
-
 <p>
     <a href="https://github.com/sinsong">literal kernel</a><br>
     莉特雅姐姐，左手抓底层，右手抓前端，一位完美全干工程师<br>
